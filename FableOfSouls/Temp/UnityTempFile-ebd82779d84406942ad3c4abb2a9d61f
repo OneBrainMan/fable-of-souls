@@ -94,6 +94,7 @@
 -define:UNITY_2017_3_0
 -define:UNITY_2017_3
 -define:UNITY_2017
+-define:UNITY_ANALYTICS
 -define:ENABLE_AUDIO
 -define:ENABLE_CACHING
 -define:ENABLE_CLOTH
@@ -180,32 +181,8 @@
 -define:UNITY_TEAM_LICENSE
 -define:UNITY_HAS_GOOGLEVR
 -define:UNITY_HAS_TANGO
-Assets/joystick/Assets/CNControls/Examples/Scenes/2D/Scripts/Camera2DFollow.cs
-Assets/joystick/Assets/CNControls/Examples/Scenes/2D/Scripts/Platformer2DUserControl.cs
-Assets/joystick/Assets/CNControls/Examples/Scenes/2D/Scripts/PlatformerCharacter2D.cs
-Assets/joystick/Assets/CNControls/Examples/Scenes/2D/Scripts/Restarter.cs
-"Assets/joystick/Assets/CNControls/Examples/Scenes/Custom Joystick/FourWayController.cs"
-"Assets/joystick/Assets/CNControls/Examples/Scenes/Third Person/AbstractTargetFollower.cs"
-"Assets/joystick/Assets/CNControls/Examples/Scenes/Third Person/AutoCam.cs"
-"Assets/joystick/Assets/CNControls/Examples/Scenes/Third Person/PivotBasedCameraRig.cs"
-"Assets/joystick/Assets/CNControls/Examples/Scenes/Third Person/ThidPersonExampleController.cs"
-"Assets/joystick/Assets/CNControls/Examples/Scenes/Touchpad Camera/RotateCamera.cs"
-"Assets/joystick/Assets/CNControls/Examples/Scenes/Touchpad Camera/RotationConstraint.cs"
-Assets/joystick/Assets/CNControls/Scripts/CnInputSystem/CnInputManager.cs
-Assets/joystick/Assets/CNControls/Scripts/CnInputSystem/VirtualAxis.cs
-Assets/joystick/Assets/CNControls/Scripts/CnInputSystem/VirtualButton.cs
-Assets/joystick/Assets/CNControls/Scripts/Controllers/Dpad.cs
-Assets/joystick/Assets/CNControls/Scripts/Controllers/DpadAxis.cs
-Assets/joystick/Assets/CNControls/Scripts/Controllers/InputHelpers/BaseInputHelper.cs
-Assets/joystick/Assets/CNControls/Scripts/Controllers/InputHelpers/ButtonInputHelper.cs
-Assets/joystick/Assets/CNControls/Scripts/Controllers/InputHelpers/DpadInputHelper.cs
-Assets/joystick/Assets/CNControls/Scripts/Controllers/InputHelpers/JoystickInputHelper.cs
-Assets/joystick/Assets/CNControls/Scripts/Controllers/InputHelpers/TouchpadInputHelper.cs
-Assets/joystick/Assets/CNControls/Scripts/Controllers/SensitiveJoystick.cs
-Assets/joystick/Assets/CNControls/Scripts/Controllers/SimpleButton.cs
-Assets/joystick/Assets/CNControls/Scripts/Controllers/SimpleJoystick.cs
-Assets/joystick/Assets/CNControls/Scripts/Controllers/Touchpad.cs
-Assets/joystick/Assets/scripts/characterControl.cs
+Assets/scripts/walk/_walking.cs
+Assets/scripts/walk/NewBehaviourScript.cs
 -r:E:\Programs\Unity\Editor\Data\Mono\lib\mono\unity\System.Runtime.Serialization.dll
 -r:E:\Programs\Unity\Editor\Data\Mono\lib\mono\unity\System.Xml.Linq.dll
 -r:E:\Programs\Unity\Editor\Data\Mono\lib\mono\unity\UnityScript.dll
