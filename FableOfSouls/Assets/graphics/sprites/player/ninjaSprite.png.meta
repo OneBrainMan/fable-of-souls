@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: c7fbc0d0253b58147b8f6bb216216be0
-timeCreated: 1520446026
+timeCreated: 1520450216
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -216,8 +216,8 @@ TextureImporter:
         y: 316
         width: 22
         height: 31
-      alignment: 1
-      pivot: {x: 0, y: 1}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -230,8 +230,8 @@ TextureImporter:
         y: 316
         width: 20
         height: 31
-      alignment: 1
-      pivot: {x: 0, y: 1}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -244,78 +244,8 @@ TextureImporter:
         y: 316
         width: 20
         height: 31
-      alignment: 1
-      pivot: {x: 0, y: 1}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: ninjaSprite_16
-      rect:
-        serializedVersion: 2
-        x: 207
-        y: 276
-        width: 17
-        height: 31
-      alignment: 1
-      pivot: {x: 0, y: 1}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: ninjaSprite_17
-      rect:
-        serializedVersion: 2
-        x: 247
-        y: 276
-        width: 17
-        height: 31
-      alignment: 1
-      pivot: {x: 0, y: 1}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: ninjaSprite_18
-      rect:
-        serializedVersion: 2
-        x: 277
-        y: 279
-        width: 16
-        height: 24
-      alignment: 1
-      pivot: {x: 0, y: 1}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: ninjaSprite_19
-      rect:
-        serializedVersion: 2
-        x: 305
-        y: 283
-        width: 20
-        height: 16
-      alignment: 1
-      pivot: {x: 0, y: 1}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: ninjaSprite_20
-      rect:
-        serializedVersion: 2
-        x: 337
-        y: 279
-        width: 16
-        height: 24
-      alignment: 1
-      pivot: {x: 0, y: 1}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -328,34 +258,6 @@ TextureImporter:
         y: 283
         width: 20
         height: 16
-      alignment: 1
-      pivot: {x: 0, y: 1}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: ninjaSprite_26
-      rect:
-        serializedVersion: 2
-        x: 205
-        y: 235
-        width: 21
-        height: 32
-      alignment: 1
-      pivot: {x: 0, y: 1}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: ninjaSprite_27
-      rect:
-        serializedVersion: 2
-        x: 247
-        y: 239
-        width: 17
-        height: 24
       alignment: 1
       pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -391,281 +293,85 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: ninjaSprite_52
+      name: ninjaSprite_0
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 239
+        width: 17
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ninjaSprite_2
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 235
+        width: 21
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ninjaSprite_3
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 193
+        width: 19
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ninjaSprite_4
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 194
+        width: 16
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ninjaSprite_5
       rect:
         serializedVersion: 2
         x: 207
         y: 116
         width: 17
         height: 31
-      alignment: 1
-      pivot: {x: 0, y: 1}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: ninjaSprite_53
+      name: ninjaSprite_10
       rect:
         serializedVersion: 2
         x: 235
         y: 117
         width: 40
         height: 29
-      alignment: 1
-      pivot: {x: 0, y: 1}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: ninjaSprite_54
-      rect:
-        serializedVersion: 2
-        x: 281
-        y: 117
-        width: 29
-        height: 29
-      alignment: 1
-      pivot: {x: 0, y: 1}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: ninjaSprite_55
-      rect:
-        serializedVersion: 2
-        x: 322
-        y: 117
-        width: 26
-        height: 29
-      alignment: 1
-      pivot: {x: 0, y: 1}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: ninjaSprite_57
-      rect:
-        serializedVersion: 2
-        x: 79
-        y: 76
-        width: 24
-        height: 31
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: ninjaSprite_59
-      rect:
-        serializedVersion: 2
-        x: 160
-        y: 77
-        width: 26
-        height: 29
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: ninjaSprite_60
-      rect:
-        serializedVersion: 2
-        x: 230
-        y: 86
-        width: 32
-        height: 16
-      alignment: 1
-      pivot: {x: 0, y: 1}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: ninjaSprite_61
-      rect:
-        serializedVersion: 2
-        x: 230
-        y: 86
-        width: 32
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: ninjaSprite_62
-      rect:
-        serializedVersion: 2
-        x: 311
-        y: 87
-        width: 32
-        height: 16
-      alignment: 1
-      pivot: {x: 0, y: 1}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: ninjaSprite_63
-      rect:
-        serializedVersion: 2
-        x: 311
-        y: 87
-        width: 32
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: ninjaSprite_68
-      rect:
-        serializedVersion: 2
-        x: 207
-        y: 36
-        width: 17
-        height: 31
-      alignment: 1
-      pivot: {x: 0, y: 1}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: ninjaSprite_69
-      rect:
-        serializedVersion: 2
-        x: 236
-        y: 36
-        width: 38
-        height: 31
-      alignment: 1
-      pivot: {x: 0, y: 1}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: ninjaSprite_70
-      rect:
-        serializedVersion: 2
-        x: 281
-        y: 36
-        width: 27
-        height: 31
-      alignment: 1
-      pivot: {x: 0, y: 1}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: ninjaSprite_71
-      rect:
-        serializedVersion: 2
-        x: 323
-        y: 36
-        width: 24
-        height: 31
-      alignment: 1
-      pivot: {x: 0, y: 1}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: ninjaSprite_73
-      rect:
-        serializedVersion: 2
-        x: 69
-        y: 0
-        width: 25
-        height: 23
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: ninjaSprite_76
-      rect:
-        serializedVersion: 2
-        x: 206
-        y: 0
-        width: 39
-        height: 23
-      alignment: 1
-      pivot: {x: 0, y: 1}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: ninjaSprite_77
-      rect:
-        serializedVersion: 2
-        x: 251
-        y: 0
-        width: 29
-        height: 23
-      alignment: 1
-      pivot: {x: 0, y: 1}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: ninjaSprite_78
-      rect:
-        serializedVersion: 2
-        x: 321
-        y: 3
-        width: 32
-        height: 16
-      alignment: 1
-      pivot: {x: 0, y: 1}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: ninjaSprite_79
-      rect:
-        serializedVersion: 2
-        x: 321
-        y: 3
-        width: 32
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: ninjaSprite_80
-      rect:
-        serializedVersion: 2
-        x: 207
-        y: 315
-        width: 138
-        height: 72
-      alignment: 1
-      pivot: {x: 0, y: 1}
+      alignment: 9
+      pivot: {x: 0.28237763, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []

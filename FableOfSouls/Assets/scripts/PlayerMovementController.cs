@@ -22,24 +22,20 @@ public class PlayerMovementController : MonoBehaviour {
 		_canvas.GetComponent<Canvas> ();
 	}
 
-	// Update is called once per frame
-	void Update ()
-	{
 
-	}
 
 	void FixedUpdate()
 	{
 		_rigidbody2D.velocity = new Vector2 (playerSpeed * _directionInput, _rigidbody2D.velocity.y);
 	}
 
-	void MoveLeft()
+	void MoveLeft()//Движение игрока налево
 	{
 		_directionInput = -1;
 		if (isFacingRight)
 			flip ();
 	}
-	void MoveRight()
+	void MoveRight()//Движение игрока направо 
 	{
 		_directionInput = 1;
 		if (!isFacingRight)
